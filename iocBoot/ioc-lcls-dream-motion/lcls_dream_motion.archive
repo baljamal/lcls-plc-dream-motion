@@ -1,7 +1,3 @@
-"DREAM:SL:ENABLE",_RBV.VAL	1	scan
-"DREAM:SL:ENABLE",.VAL	1	scan
-"DREAM:SL:STATUS",_RBV.VAL	1	scan
-"DREAM:SL:STATUS",.VAL	1	scan
 $(PREFIX)LCLSGeneral:GlobalLogTrickleTrip_RBV.VAL	1	scan
 $(PREFIX)LCLSGeneral:LogHost_RBV.VAL	1	scan
 $(PREFIX)LCLSGeneral:LogHost.VAL	1	scan

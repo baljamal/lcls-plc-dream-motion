@@ -41,7 +41,7 @@ epicsEnvSet("ASYN_PORT",        "ASYN_PLC")
 epicsEnvSet("IPADDR",           "172.21.132.145")
 epicsEnvSet("AMSID",            "172.21.132.145.1.1")
 epicsEnvSet("AMS_PORT",         "851")
-epicsEnvSet("ADS_MAX_PARAMS",   "3273")
+epicsEnvSet("ADS_MAX_PARAMS",   "3269")
 epicsEnvSet("ADS_SAMPLE_MS",    "50")
 epicsEnvSet("ADS_MAX_DELAY_MS", "100")
 epicsEnvSet("ADS_TIMEOUT_MS",   "1000")
@@ -309,8 +309,8 @@ cd "$(IOC_TOP)"
 ## PLC Project Database files ##
 dbLoadRecords("lcls_dream_motion.db", "PORT=$(ASYN_PORT),PREFIX=PLC:lcls_dream_motion:,IOCNAME=$(IOC),IOC=$(IOC)")
 
-# Total records: 2273
-callbackSetQueueSize(6546)
+# Total records: 2269
+callbackSetQueueSize(6538)
 
 # Autosave and archive settings:
 save_restoreSet_status_prefix("PLC:lcls_dream_motion:")
