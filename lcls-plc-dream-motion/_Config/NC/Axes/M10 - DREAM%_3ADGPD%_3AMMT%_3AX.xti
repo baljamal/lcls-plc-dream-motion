@@ -1424,7 +1424,7 @@ External Setpoint Generation:
 			</Relations>
 		</DataType>
 	</DataTypes>
-	<Axis Id="10" CreateSymbols="true" AxisType="1" AxisFolder="In-Vacuum_motion">
+	<Axis Id="10" Disabled="true" CreateSymbols="true" AxisType="1" AxisFolder="In-Vacuum_motion">
 		<Name>M10 - DREAM:DGPD:MMT:X</Name>
 		<AxisPara>
 			<Dynamic AccelerationMaximum="0.1" DecelerationMaximum="0.1" Acceleration="1" Deceleration="1" Jerk="10"/>
