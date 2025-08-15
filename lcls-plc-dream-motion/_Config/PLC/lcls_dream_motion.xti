@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{13CD028B-ED78-4875-B8F0-88B1F315EED5}" Name="lcls_dream_motion" PrjFilePath="..\..\lcls_dream_motion\lcls_dream_motion.plcproj" TmcFilePath="..\..\lcls_dream_motion\lcls_dream_motion.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{E34FD446-7EFE-FBDB-0634-43632AA1F7B4}" TmcPath="lcls_dream_motion\lcls_dream_motion.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{48868826-96D4-809D-F414-1DF49F163C77}" TmcPath="lcls_dream_motion\lcls_dream_motion.tmc">
 			<Name>lcls_dream_motion Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="8" AreaNo="4">
@@ -1043,10 +1043,6 @@ External Setpoint Generation:
 				<Var>
 					<Name>PRG_CoilMovers.fb_Coil_Roll.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 					<Type GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</Type>
-				</Var>
-				<Var>
-					<Name>GVL_PMPS.fbFastFaultOutput1.q_xFastFaultOut</Name>
-					<Type>BOOL</Type>
 				</Var>
 				<Var>
 					<Name>Main.M1.Axis.PlcToNc</Name>
